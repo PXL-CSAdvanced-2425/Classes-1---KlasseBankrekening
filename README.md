@@ -1,14 +1,12 @@
 # KlasseBankrekening
 
-![Afbeelding met tekst, schermopname, bloem Automatisch gegenereerde
-beschrijving](./media/image1.png)
-
-![Afbeelding met tekst, schermopname, Lettertype, nummer Automatisch
-gegenereerde
-beschrijving](./media/image2.png)
+![UI voorbeeld van het verwachte resultaat](./media/image1.png)
 
 Schrijf een toepassing waarin je stortingen en geldopnames mee kan doen.
-De stortingen of geldopnames worden afgesloten door de return toets.
-Zorg ervoor dat je enkel cijfers kan ingeven. Schrijf een
-voidprocedure *IncreaseAmount*() en een voidprocedure
-*DecreaseAmount*() die op hun beurt de juiste methods in de klasse *BankAccount* oproepen.
+- Gebruik een TextBox waarmee de gebruiker een bedrag kan ingeven
+- Zorg ervoor dat je enkel cijfers kan ingeven.
+- De stortingen of geldopnames worden afgesloten door de return toets in te drukken.
+- Maak voor de logica een klasse aan: ```BankAccount```
+- Schrijf een voidprocedure *IncreaseAmount*() en een voidprocedure *DecreaseAmount*() in de klasse *BankAccount* en zorg dat die correct aangeroepen worden.
+
+![klasse diagram](./media/image2.png)
