@@ -17,16 +17,17 @@ namespace Classes_1___KlasseBankrekening
 {
     public partial class MainWindow : Window
     {
-        private BankAccount account = new BankAccount();
+        private BankAccount account;
 
         public MainWindow()
         {
             InitializeComponent();
+
+            account = new BankAccount();
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            account.CurrentBalance = 500;
             balanceTextBox.Text = account.CurrentBalance.ToString();
 
             amountTextBox.Focus();

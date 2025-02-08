@@ -15,7 +15,7 @@ namespace Classes_1___KlasseBankrekening
         // Constructor 
         public BankAccount()
         {
-            CurrentBalance = 0;
+            CurrentBalance = 500;
         }
 
         // Method Opname()
